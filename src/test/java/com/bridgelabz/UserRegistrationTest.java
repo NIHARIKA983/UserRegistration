@@ -79,5 +79,20 @@ public class UserRegistrationTest {
         boolean result = validator.PassWordPattern("Abc");
         Assert.assertFalse(result);
     }
+    //UC6
+
+    @Test
+    public void givenPassWordShouldHaveUpperCase_whenValid_thenReturnTrue() {
+        UserRegistration validator = new UserRegistration();
+        boolean result = validator.PassWordPattern("Passwords");
+        Assert.assertTrue(result);
+
+    }
+    @Test
+    public void givenPassWordShouldHaveUpperCase_whenValid_thenReturnFalse() {
+        UserRegistration validator = new UserRegistration();
+        boolean result = validator.PassWordPattern("abc");
+        Assert.assertFalse(result);
+    }
 }
 
