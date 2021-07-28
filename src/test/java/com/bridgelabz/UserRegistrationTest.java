@@ -49,5 +49,20 @@ public class UserRegistrationTest {
         Assert.assertFalse(result);
 
     }
+    //UC4
+
+    @Test
+    public void givenMobile_whenValid_thenReturnTrue() {
+        UserRegistration validator = new UserRegistration();
+        boolean result = validator.MobilePattern("9919819801");
+        Assert.assertTrue(result);
+    }
+
+    @Test
+    public void givenMobile_whenValid_thenReturnFalse() {
+        UserRegistration validator = new UserRegistration();
+        boolean result = validator.MobilePattern("647383946");
+        Assert.assertFalse(result);
+    }
 }
 

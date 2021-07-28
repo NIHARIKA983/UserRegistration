@@ -6,6 +6,7 @@ import java.util.regex.Pattern;
 public class UserRegistration {
     String NamePattern = "^[A-Z]{1}[a-z]{3,}$";
     String EmailPattern = "^[a-z][0-9A-Za-z]+([-_+.][0-9A-Za-z]+)?[@][a-zA-Z0-9]+[.][a-zA-Z]{2,4}([.][a-zA-Z]{2,4})?$";
+    String MobilePattern = "^(\\+\\d{1,3}( )?)?((\\(\\d{3}\\))|\\d{3})[- .]?\\d{3}[- .]?\\d{4}$";
 
     public boolean validateFirstName(String fname) {
         Pattern pattern = Pattern.compile(NamePattern);
@@ -16,6 +17,12 @@ public class UserRegistration {
     public boolean validateEmailAddress(String email){
         Pattern pattern = Pattern.compile(EmailPattern);
         Matcher matcher = pattern.matcher(email);
+        return matcher.find();
+    }
+
+    public boolean MobilePattern(String mobile) {
+        Pattern pattern = Pattern.compile(MobilePattern);
+        Matcher matcher = pattern.matcher(mobile);
         return matcher.find();
     }
 }
