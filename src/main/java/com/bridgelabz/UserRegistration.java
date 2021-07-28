@@ -5,10 +5,17 @@ import java.util.regex.Pattern;
 
 public class UserRegistration {
     String NamePattern = "^[A-Z]{1}[a-z]{3,}$";
+    String EmailPattern = "^[a-z][0-9A-Za-z]+([-_+.][0-9A-Za-z]+)?[@][a-zA-Z0-9]+[.][a-zA-Z]{2,4}([.][a-zA-Z]{2,4})?$";
 
     public boolean validateFirstName(String fname) {
         Pattern pattern = Pattern.compile(NamePattern);
         Matcher matcher = pattern.matcher(fname);
+        return matcher.find();
+    }
+
+    public boolean validateEmailAddress(String email){
+        Pattern pattern = Pattern.compile(EmailPattern);
+        Matcher matcher = pattern.matcher(email);
         return matcher.find();
     }
 }
