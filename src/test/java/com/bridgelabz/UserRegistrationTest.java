@@ -64,5 +64,20 @@ public class UserRegistrationTest {
         boolean result = validator.MobilePattern("647383946");
         Assert.assertFalse(result);
     }
+    //UC5
+
+    @Test
+    public void givenPassWord_whenValid_thenReturnTrue() {
+        UserRegistration validator = new UserRegistration();
+        boolean result = validator.PassWordPattern("passwords");
+        Assert.assertTrue(result);
+    }
+
+    @Test
+    public void givenPassWord_whenValid_thenReturnFalse() {
+        UserRegistration validator = new UserRegistration();
+        boolean result = validator.PassWordPattern("Abc");
+        Assert.assertFalse(result);
+    }
 }
 

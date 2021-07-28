@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.UserRegistrationTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-07-28T16:07:21" hostname="NIHARIKA" time="0.045">
+<testsuite name="com.bridgelabz.UserRegistrationTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-07-28T16:27:20" hostname="NIHARIKA" time="0.037">
   <properties/>
-  <testcase name="givenFirstName_whenValid_thenReturnTrue" classname="com.bridgelabz.UserRegistrationTest" time="0.008"/>
-  <testcase name="givenMobile_whenValid_thenReturnFalse" classname="com.bridgelabz.UserRegistrationTest" time="0.009"/>
+  <testcase name="givenFirstName_whenValid_thenReturnTrue" classname="com.bridgelabz.UserRegistrationTest" time="0.01"/>
+  <testcase name="givenMobile_whenValid_thenReturnFalse" classname="com.bridgelabz.UserRegistrationTest" time="0.005"/>
   <testcase name="giveEmail_AsTrue_When_its_Valid" classname="com.bridgelabz.UserRegistrationTest" time="0.002"/>
-  <testcase name="givenFirstName_whenInValid_thenReturnFalse" classname="com.bridgelabz.UserRegistrationTest" time="0.0"/>
+  <testcase name="givenFirstName_whenInValid_thenReturnFalse" classname="com.bridgelabz.UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPassWord_whenValid_thenReturnTrue" classname="com.bridgelabz.UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPassWord_whenValid_thenReturnFalse" classname="com.bridgelabz.UserRegistrationTest" time="0.001"/>
   <testcase name="givenLastName_whenValid_thenReturnTrue" classname="com.bridgelabz.UserRegistrationTest" time="0.001"/>
   <testcase name="giveEmail_AsFalse_When_its_InValid" classname="com.bridgelabz.UserRegistrationTest" time="0.001"/>
-  <testcase name="givenMobile_whenValid_thenReturnTrue" classname="com.bridgelabz.UserRegistrationTest" time="0.001"/>
-  <testcase name="givenLastName_whenInValid_thenReturnFalse" classname="com.bridgelabz.UserRegistrationTest" time="0.001"/>
+  <testcase name="givenMobile_whenValid_thenReturnTrue" classname="com.bridgelabz.UserRegistrationTest" time="0.003"/>
+  <testcase name="givenLastName_whenInValid_thenReturnFalse" classname="com.bridgelabz.UserRegistrationTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
