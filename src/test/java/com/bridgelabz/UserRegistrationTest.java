@@ -69,7 +69,7 @@ public class UserRegistrationTest {
     @Test
     public void givenPassWord_whenValid_thenReturnTrue() {
         UserRegistration validator = new UserRegistration();
-        boolean result = validator.PassWordPattern("passwords");
+        boolean result = validator.PassWordPattern("newspaper11%");
         Assert.assertTrue(result);
     }
 
@@ -84,7 +84,7 @@ public class UserRegistrationTest {
     @Test
     public void givenPassWordShouldHaveUpperCase_whenValid_thenReturnTrue() {
         UserRegistration validator = new UserRegistration();
-        boolean result = validator.PassWordPattern("Passwords");
+        boolean result = validator.PassWordPattern("Newspaper#");
         Assert.assertTrue(result);
 
     }
@@ -99,11 +99,25 @@ public class UserRegistrationTest {
     @Test
     public void givenPassWordShouldHaveNumericNumber_whenValid_thenReturnTrue() {
         UserRegistration validator = new UserRegistration();
-        boolean result = validator.PassWordPattern("Passwords12");
+        boolean result = validator.PassWordPattern("adArEss1$");
         Assert.assertTrue(result);
     }
     @Test
     public void givenPassWordShouldHaveNumericNumber_whenValid_thenReturnFalse() {
+        UserRegistration validator = new UserRegistration();
+        boolean result = validator.PassWordPattern("abc");
+        Assert.assertFalse(result);
+    }
+    //UC8
+
+    @Test
+    public void givenPassWordShouldHaveSpecialCharacter_whenValid_thenReturnTrue() {
+        UserRegistration validator = new UserRegistration();
+        boolean result = validator.PassWordPattern("NewsPaper1?");
+        Assert.assertTrue(result);
+    }
+    @Test
+    public void givenPassWordShouldHaveSpecialCharacter_whenValid_thenReturnFalse() {
         UserRegistration validator = new UserRegistration();
         boolean result = validator.PassWordPattern("abc");
         Assert.assertFalse(result);
