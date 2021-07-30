@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.ValidEmailTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-07-30T13:31:11" hostname="NIHARIKA" time="0.098">
+<testsuite name="com.bridgelabz.ValidEmailTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-07-30T13:56:37" hostname="NIHARIKA" time="0.054">
   <properties/>
   <testcase name="shouldValidateAllTheEmailSamples[0]" classname="com.bridgelabz.ValidEmailTest" time="0.027"/>
-  <testcase name="shouldValidateAllTheEmailSamples[1]" classname="com.bridgelabz.ValidEmailTest" time="0.005"/>
-  <testcase name="shouldValidateAllTheEmailSamples[2]" classname="com.bridgelabz.ValidEmailTest" time="0.009"/>
-  <testcase name="shouldValidateAllTheEmailSamples[3]" classname="com.bridgelabz.ValidEmailTest" time="0.004"/>
-  <testcase name="shouldValidateAllTheEmailSamples[4]" classname="com.bridgelabz.ValidEmailTest" time="0.005"/>
-  <testcase name="shouldValidateAllTheEmailSamples[5]" classname="com.bridgelabz.ValidEmailTest" time="0.003"/>
-  <testcase name="shouldValidateAllTheEmailSamples[6]" classname="com.bridgelabz.ValidEmailTest" time="0.008"/>
-  <testcase name="shouldValidateAllTheEmailSamples[7]" classname="com.bridgelabz.ValidEmailTest" time="0.004"/>
+  <testcase name="shouldValidateAllTheEmailSamples[1]" classname="com.bridgelabz.ValidEmailTest" time="0.001"/>
+  <testcase name="shouldValidateAllTheEmailSamples[2]" classname="com.bridgelabz.ValidEmailTest" time="0.002"/>
+  <testcase name="shouldValidateAllTheEmailSamples[3]" classname="com.bridgelabz.ValidEmailTest" time="0.001"/>
+  <testcase name="shouldValidateAllTheEmailSamples[4]" classname="com.bridgelabz.ValidEmailTest" time="0.001"/>
+  <testcase name="shouldValidateAllTheEmailSamples[5]" classname="com.bridgelabz.ValidEmailTest" time="0.001"/>
+  <testcase name="shouldValidateAllTheEmailSamples[6]" classname="com.bridgelabz.ValidEmailTest" time="0.002"/>
+  <testcase name="shouldValidateAllTheEmailSamples[7]" classname="com.bridgelabz.ValidEmailTest" time="0.002"/>
   <testcase name="shouldValidateAllTheEmailSamples[8]" classname="com.bridgelabz.ValidEmailTest" time="0.002"/>
-  <testcase name="shouldValidateAllTheEmailSamples[9]" classname="com.bridgelabz.ValidEmailTest" time="0.002"/>
-  <testcase name="shouldValidateAllTheEmailSamples[10]" classname="com.bridgelabz.ValidEmailTest" time="0.001"/>
+  <testcase name="shouldValidateAllTheEmailSamples[9]" classname="com.bridgelabz.ValidEmailTest" time="0.001"/>
+  <testcase name="shouldValidateAllTheEmailSamples[10]" classname="com.bridgelabz.ValidEmailTest" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
