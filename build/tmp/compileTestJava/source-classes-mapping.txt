@@ -1,2 +1,4 @@
 com/bridgelabz/UserRegistrationTest.java
  com.bridgelabz.UserRegistrationTest
+com/bridgelabz/ValidEmailTest.java
+ com.bridgelabz.ValidEmailTest
