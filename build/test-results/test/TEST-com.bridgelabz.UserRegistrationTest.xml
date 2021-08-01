@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bridgelabz.UserRegistrationTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-07-31T04:46:57" hostname="NIHARIKA" time="0.161">
+  <properties/>
+  <testcase name="emailTestShouldReturnTrue" classname="com.bridgelabz.UserRegistrationTest" time="0.137"/>
+  <testcase name="passwordTestShouldReturnFalse" classname="com.bridgelabz.UserRegistrationTest" time="0.002"/>
+  <testcase name="phoneTestShouldReturnTrue" classname="com.bridgelabz.UserRegistrationTest" time="0.004"/>
+  <testcase name="lastNameTestShouldReturnTrue" classname="com.bridgelabz.UserRegistrationTest" time="0.002"/>
+  <testcase name="firstNameTestShouldReturnFalse" classname="com.bridgelabz.UserRegistrationTest" time="0.001"/>
+  <testcase name="passwordTestShouldReturnTrue" classname="com.bridgelabz.UserRegistrationTest" time="0.002"/>
+  <testcase name="emailTestShouldReturnFalse" classname="com.bridgelabz.UserRegistrationTest" time="0.001"/>
+  <testcase name="lastNameTestShouldReturnFalse" classname="com.bridgelabz.UserRegistrationTest" time="0.002"/>
+  <testcase name="phoneTestShouldReturnFalse" classname="com.bridgelabz.UserRegistrationTest" time="0.001"/>
+  <testcase name="firstNameTestShouldReturnTrue" classname="com.bridgelabz.UserRegistrationTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

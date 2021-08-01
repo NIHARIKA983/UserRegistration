@@ -4,6 +4,8 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
+import java.util.regex.Pattern;
+
 import static org.junit.Assert.*;
 
 public class UserRegistrationTest {
@@ -136,4 +138,5 @@ public class UserRegistrationTest {
         assertFalse(result);
     }
 }
+
 
